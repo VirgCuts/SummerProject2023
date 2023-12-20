@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+nav {
+  display: flex;
+  position: sticky; 
+  top: 0px;
+  width: 100%; /* Fixed width for the navbar */
+  margin: 0 auto; /* Center the navbar horizontally */
+  background-color: SlateBlue;
+  
+}
+nav ul {
+  list-style-type: none;
+  margin: 3px;
+  padding: 3px;
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 20px;
+  
+}
+.nav-list { 
+  width: 50%;
+  display: flex;
+ 
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+  padding:3px;
+}
+
+.nav-list li a:hover {
+  color: yellow;
+  background-color: rgb(82, 69, 163);
+ 
+}
+
+.nav-link {
+  background-color: rgb(82, 69, 163);
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  color: black;
+  width: 100px;
+}
+
+
+.navItemContainer {
+  padding:0px;
+}
+
+footer {
+  background-color: green;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+ 
+}
+
+.footer-container {
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Member{
+  width: 90%;
+  height: 300px;
+  text-align: center;
+  background-color: lightgray;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.BoardMembers {
+  display: flex;
+}
+
+.column {
+  flex-basis: 33.33%;
+  padding: 10px;
+}
+
+.SocialMedia {
+  text-align: center;
+}
+p {
+ text-align: center;
+}
